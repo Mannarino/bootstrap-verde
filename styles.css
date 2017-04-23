@@ -1,0 +1,36 @@
+
+
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+#header-container{
+	background-color: #99c84a;
+	color: white;
+}
+
+#menu-container{
+	background-color: #f7f7f9;
+}
+input.form-control:focus{
+	border-color: #99c84a;
+}
+#info-container {
+  background-color: #99c84a;
+  color: white;
+}
+#info-container h4{
+  margin: 30px;
+}
+
+
+footer {
+  background-color: #1c3643;
+  color: white;
+  padding: 3em 0;
+}
+
+@media screen and (max-width: 766px){
+	#info-container img{
+		height: 100px!important;
+	}
+}
